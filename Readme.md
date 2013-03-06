@@ -9,6 +9,12 @@ This is a very simple QR-Code generator that outputs a PNG-Buffer. It's written 
       // png contains the PNG as a buffer. You can write it to a file for example.
     });
 
+It has only one function:
+
+    function qr(content[, scale], callback)
+
+scale is the pixel extent of a QR-Code data pixel.
+
 ## Install
 
     npm install qrpng
