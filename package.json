@@ -1,0 +1,9 @@
+{
+  "name":"qrpng",
+  "version":"0.1.1",
+  "description":"Quickly create a QR-Code PNG in pure JavaScript",
+  "main":"./qr.js",
+  "dependencies":{
+    "buffer-crc32":"*"
+  }
+}
