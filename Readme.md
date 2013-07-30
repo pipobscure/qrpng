@@ -1,4 +1,4 @@
-# QR-PNG
+# QR-PNG [![NPM](https://nodei.co/npm/qrpng.png)](https://nodei.co/npm/qrpng/)
 
 This is a very simple QR-Code generator that outputs a PNG-Buffer. It's written in pure JavaScript.
 
