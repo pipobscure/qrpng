@@ -1,13 +1,17 @@
 {
-  "name":"qrpng",
-  "version":"0.1.1",
-  "description":"Quickly create a QR-Code PNG in pure JavaScript",
-  "main":"./qr.js",
+  "name": "qrpng",
+  "version": "0.1.2",
+  "description": "Quickly create a QR-Code PNG in pure JavaScript",
+  "main": "./qr.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/phidelta/node-qrpng.git"
+    "url": "https://github.com/pipobscure/qrpng.git"
   },
-  "dependencies":{
-    "buffer-crc32":"*"
+  "author": {
+    "name": "Philipp Dunkel",
+    "email": "pip@pipobscure.com"
+  },
+  "dependencies": {
+    "buffer-crc32": "*"
   }
 }
