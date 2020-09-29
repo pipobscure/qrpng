@@ -1,6 +1,6 @@
 {
   "name": "qrpng",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Quickly create a QR-Code PNG in pure JavaScript",
   "main": "./qr.js",
   "files": [
@@ -20,9 +20,7 @@
     "name": "Philipp Dunkel",
     "email": "pip@pipobscure.com"
   },
-  "dependencies": {
-    "buffer-crc32": "*"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@rollup/plugin-commonjs": "^15.1.0",
     "@rollup/plugin-node-resolve": "^9.0.0",
