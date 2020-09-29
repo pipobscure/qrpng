@@ -4,14 +4,16 @@ This is a very simple QR-Code generator that outputs a PNG-Buffer. It's written 
 
 ## Usage
 
-    var qr=require('qrpng');
-    qr('this is a sample code', function(err, png) {
-      // png contains the PNG as a buffer. You can write it to a file for example.
-    });
+```
+    import qrcode from 'qrpng;
+
+    const uint8array = qrcode('my text for the code');
+    document.getElementById('qrimg').src = 'image/png;base64,' + btoa(String.fromCharCode.apply(null, uint8array));
+```
 
 It has only one function:
 
-    function qr(content[, scale], callback)
+    function generate(content[, scale])
 
 scale is the pixel extent of a QR-Code data pixel.
 

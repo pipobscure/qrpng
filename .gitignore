@@ -1,1 +1,7 @@
 node_modules
+**/.DS_Store
+**/*.js
+**/*.d.ts
+
+!qr.d.ts
+!rollup.config.js
