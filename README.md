@@ -5,7 +5,7 @@ This is a very simple QR-Code generator that outputs a PNG-Buffer. It's written 
 ## Usage
 
 ```
-    import qrcode from 'qrpng;
+    import { qrcode } from 'qrpng';
 
     const uint8array = qrcode('my text for the code');
     document.getElementById('qrimg').src = 'image/png;base64,' + btoa(String.fromCharCode.apply(null, uint8array));
