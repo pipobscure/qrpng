@@ -2,15 +2,16 @@
   "name": "qrpng",
   "version": "1.0.1",
   "description": "Quickly create a QR-Code PNG in pure JavaScript",
-  "main": "./qr.js",
+  "main": "./qrpng.js",
   "files": [
-    "qr.js",
-    "qr.d.ts",
+    "qrpng.js",
+    "qrpng.d.ts",
     "Readme.md"
   ],
   "scripts": {
     "build": "tsc && rollup -c rollup.config.js",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "postversion": "git push --follow-tags"
   },
   "repository": {
     "type": "git",

@@ -3,5 +3,5 @@ node_modules
 **/*.js
 **/*.d.ts
 
-!qr.d.ts
+!qrpng.d.ts
 !rollup.config.js

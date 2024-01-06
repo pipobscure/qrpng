@@ -5,7 +5,7 @@ const config = {
   input: "lib/qr.js",
   output: {
     name: "qrpng",
-    file: "qr.js",
+    file: "qrpng.js",
     format: "cjs",
     exports: "default",
   },

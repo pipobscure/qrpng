@@ -89,7 +89,6 @@ function setUint32(buffer: ArrayBuffer, offset: number, value: number) {
 }
 
 function compileData(data: boolean[][]): { width: number; height: number; data: Uint8Array } {
-  console.error(printmap(data));
   const height = Math.ceil(data.length / 8) * 8;
   const width = Math.ceil(data[0].length / 8) * 8;
   const buffer = new Uint8Array(((width + 1) * height) / 8);
@@ -108,8 +107,4 @@ function compileData(data: boolean[][]): { width: number; height: number; data: 
 
   const result = deflate(buffer);
   return { width, height, data: result };
-}
-
-function printmap(data: boolean[][]) {
-  return data.map((l) => l.map((p) => (p ? "*" : " ")).join("")).join("\n");
 }
