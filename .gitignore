@@ -2,6 +2,4 @@ node_modules
 **/.DS_Store
 **/*.js
 **/*.d.ts
-
-!qrpng.d.ts
-!rollup.config.js
+dist/
