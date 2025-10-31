@@ -29,5 +29,5 @@
 		"@biomejs/biome": "^2.2.7",
 		"typescript": "^5.9.3"
 	},
-	"license": "ISC"
+	"license": "EUPL-1.2"
 }

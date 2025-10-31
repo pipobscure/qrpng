@@ -23,4 +23,6 @@ scale is the pixel extent of a QR-Code data pixel.
 
 ## License
 
-This uses "QRCode for JavaScript" which Kazuhiko Arase thankfully MIT licensed. This modules is also licensed under MIT license.
+This uses "QRCode for JavaScript" which Kazuhiko Arase thankfully MIT licensed. 
+
+© 2025 Philipp Dunkel <pip@pipobscure.com> [EUPL v1.2](https://eupl.eu/1.2/en)
